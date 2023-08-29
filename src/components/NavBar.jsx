@@ -2,9 +2,11 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <div className=" w-full h-[90px] ">
+    <div className=" w-full h-[90px]  bg-black">
       <div className=" max-w-[1240px]  mx-auto p-4 flex justify-between  ">
-        <div>DEFI</div>
+        <div>
+          <h1 className=" text-red-500">DEFI</h1>
+        </div>
         <div>
           <ul>
             <li>Platform</li>
