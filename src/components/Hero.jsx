@@ -21,8 +21,8 @@ const Hero = () => {
           applications.
         </p>
         <div>
-          <button>Use Defi</button>
-          <button>EAQ</button>
+          <button className=" m-2">Use Defi</button>
+          <button className=" m-2">EAQ</button>
         </div>
       </div>
     </div>
