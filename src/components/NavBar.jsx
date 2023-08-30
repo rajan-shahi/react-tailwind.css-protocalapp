@@ -5,10 +5,10 @@ const NavBar = () => {
     <div className=" w-full h-[90px]  bg-black">
       <div className=" max-w-[1240px]  mx-auto p-4 flex justify-between  ">
         <div>
-          <h1 className=" text-red-500">DEFI</h1>
+          <h1 className=" text-[#00d8ff]">DEFI</h1>
         </div>
         <div>
-          <ul>
+          <ul className=" flex  text-white">
             <li>Platform</li>
             <li>Developers</li>
             <li>Community</li>
