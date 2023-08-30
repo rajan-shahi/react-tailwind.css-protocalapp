@@ -3,10 +3,10 @@ import { MdOutlineMenu } from "react-icons/md";
 import { MdOutlineClose } from "react-icons/md";
 
 const NavBar = () => {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false);
   const handleNav = () => {
-      setNav(!nav)
-  }
+    setNav(!nav);
+  };
   return (
     <div className=" w-full h-[90px]  bg-black">
       <div className=" max-w-[1240px]  mx-auto p-4 flex justify-between  items-center h-full ">
