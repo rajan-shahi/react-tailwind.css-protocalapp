@@ -13,7 +13,6 @@ const Hero = () => {
       <div className=" w-full h-[90%] flex  flex-col justify-center items-center text-white px-4 text-center">
         <h1>Decentralized</h1>
         <h1 className=" py-2">
-          {" "}
           <span className=" blue">Trading</span> Protocal
         </h1>
         <p className=" text-xl py-4">
