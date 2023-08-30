@@ -10,6 +10,12 @@
   --primary-purple: #6a00ff;
 }
 
+
+
+.blue {
+  color: var(--primary-blue)
+}
+
 @layer base {
 
   *{
