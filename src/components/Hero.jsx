@@ -24,6 +24,9 @@ const Hero = () => {
           <button className=" m-2">EAQ</button>
         </div>
       </div>
+      <div>
+      <p className='text-center text-white text-2xl font-bold'>Total Volume Secured: $42,104,783,662.47</p>
+      </div>
     </div>
   );
 };
