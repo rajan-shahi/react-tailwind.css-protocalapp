@@ -20,13 +20,15 @@ const About = () => {
             {/* card */}
             <div className=" flex flex-col  border">
               <div>
-                <SiHiveBlockchain />
+                <div className=" bg-[#00d8ff] inline-block">
+                  <SiHiveBlockchain />
+                </div>
+                <h3>Reliable,tamoer-poor network</h3>
+                <p>
+                  Use decentralization, trusted nodes, premium data, and
+                  cryptographic proofs to connect highly accurate and available
+                </p>
               </div>
-              <h3>Reliable,tamoer-poor network</h3>
-              <p>
-                Use decentralization, trusted nodes, premium data, and
-                cryptographic proofs to connect highly accurate and available
-              </p>
             </div>
             <p>card</p>
             <p>card</p>
