@@ -1,8 +1,5 @@
 import React from "react";
-import { SiHiveBlockchain } from "react-icons/si";
-// import { SiStrapi } from "react-icons/si";
-// import { RiSecurePaymentLine } from "react-icons/ri";
-// import { VscServerProcess } from "react-icons/vs";
+import AboutCard from "./AboutCard";
 
 const About = () => {
   return (
@@ -18,21 +15,10 @@ const About = () => {
           {/* card Container */}
           <div className=" grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {/* card */}
-            <div className=" flex flex-col  border text-left rounded-2xl py-12 px-8">
-              <div>
-                <div className=" bg-[#00d8ff] inline-flex p-2 rounded-full">
-                  <SiHiveBlockchain  size={40}/>
-                </div>
-                <h3 className=" text-xl font-bold py-4">Reliable,tamoer-poor network</h3>
-                <p>
-                  Use decentralization, trusted nodes, premium data, and
-                  cryptographic proofs to connect highly accurate and available
-                </p>
-              </div>
-            </div>
-            <p>card</p>
-            <p>card</p>
-            <p>card</p>
+           <AboutCard/>
+           <AboutCard/>
+           <AboutCard/>
+           <AboutCard/>
           </div>
         </div>
       </div>
