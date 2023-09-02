@@ -18,12 +18,12 @@ const About = () => {
           {/* card Container */}
           <div className=" grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {/* card */}
-            <div className=" flex flex-col  border">
+            <div className=" flex flex-col  border text-left rounded-2xl py-12 px-8">
               <div>
-                <div className=" bg-[#00d8ff] inline-block">
-                  <SiHiveBlockchain />
+                <div className=" bg-[#00d8ff] inline-flex">
+                  <SiHiveBlockchain  size={40}/>
                 </div>
-                <h3>Reliable,tamoer-poor network</h3>
+                <h3 className=" text-xl font-bold py-4">Reliable,tamoer-poor network</h3>
                 <p>
                   Use decentralization, trusted nodes, premium data, and
                   cryptographic proofs to connect highly accurate and available
