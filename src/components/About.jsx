@@ -20,7 +20,7 @@ const About = () => {
             {/* card */}
             <div className=" flex flex-col  border text-left rounded-2xl py-12 px-8">
               <div>
-                <div className=" bg-[#00d8ff] inline-flex">
+                <div className=" bg-[#00d8ff] inline-flex p-2 rounded-full">
                   <SiHiveBlockchain  size={40}/>
                 </div>
                 <h3 className=" text-xl font-bold py-4">Reliable,tamoer-poor network</h3>
