@@ -49,6 +49,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <p className=" flex justify-center text-center mt-12">Copyright by @rajan bahadur shahi</p>
     </div>
   );
 };
